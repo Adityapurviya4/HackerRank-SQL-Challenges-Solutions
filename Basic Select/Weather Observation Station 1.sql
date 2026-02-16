@@ -1,0 +1,1 @@
+SELECT City,State from Station;
