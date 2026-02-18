@@ -1,0 +1,1 @@
+SELECT Distinct City from Station where not lower(left(city,1)) in ('a','e','u','i','o');
