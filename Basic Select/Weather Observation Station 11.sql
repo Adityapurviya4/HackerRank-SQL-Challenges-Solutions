@@ -1,0 +1,1 @@
+SELECT distinct city from station where lower(left(city,1)) not in ('a','e','u','i','o') or lower(right(city,1)) not in ('a','e','u','i','o');
